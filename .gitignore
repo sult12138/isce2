@@ -1,0 +1,21 @@
+# Large local SAR data
+SLC/
+DEM/
+ORBITS/
+AUX/
+WORK/
+
+# Generated files and logs
+__pycache__/
+*.py[cod]
+*.log
+*.part
+
+# Local credentials / cookies
+.bulk_download_cookiejar.txt
+.earthdatacookie
+.copernicus_dataspace_token
+
+# OS/editor noise
+.DS_Store
+.vscode/
