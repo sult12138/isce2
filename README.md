@@ -3,6 +3,11 @@
 This repository contains helper scripts for preparing and running a Sentinel-1
 ISCE2/topsStack workflow.
 
+For a clean Windows/WSL installation, run
+[`install_isce2_wsl.ps1`](install_isce2_wsl.ps1) from PowerShell. The exact
+environment, resolved errors, installed paths, and verification results are
+recorded in [`INSTALLATION_LOG.md`](INSTALLATION_LOG.md).
+
 Large SAR data products are intentionally not tracked by Git. The local data
 directories are ignored by `.gitignore`.
 
